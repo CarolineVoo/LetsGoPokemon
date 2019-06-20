@@ -1,0 +1,109 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+
+
+/* NAVIGATION BAR */
+.navBar{
+    position: sticky;
+    background-color:#104496;
+    overflow: hidden;
+    top:0; 
+    z-index: 999;
+
+}
+
+.navLogo img{
+    width: 60px;
+    float: left;
+    padding: 10px;
+}
+
+.navLogo img:hover{
+    opacity: 0.6;
+    background-color: #507ec9;
+    
+}
+
+.navigation a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 27px 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+    
+}
+
+.navigation a:hover{
+    background-color: #507ec9;
+}
+
+.navigation a:active{
+    color: aliceblue;
+}
+
+
+@media only screen and (max-width:835px){
+    .navigation a{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navLogo img{
+        width: 60px;
+        float: none;
+        padding: 10px;
+        margin-left: 50%;
+    }
+
+}
+
+/*--------- HEADER ----------*/
+
+.header{
+    background-image: url(./Images/headerPokemon.jpg);
+    background-repeat: no-repeat;
+    filter:blur(1px);
+    background-size: 100%;
+    width: 100%;
+    padding-bottom:34%;
+   
+}
+
+.header:hover{
+    filter:blur(0);
+}
+
+
+/*--------- Main ----------*/
+
+.main{
+    margin: 0 250px 0 250px;
+    text-align: center;
+}
+
+
+.mainIntro hr {
+    margin: 0 150px;
+}
+
+.mainIntro p{
+    margin: 30px;
+}
+
+
+/*--------- Footer----------*/
+.footer{
+    background: lightgrey;
+    padding: 50px;
+    text-align: center;
+}
+
